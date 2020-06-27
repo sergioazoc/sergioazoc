@@ -1,130 +1,19 @@
 <template>
   <div>
-    <b-aspect aspect="16:9" tag="header" class="header">
-      <b-container class="header__cover d-flex justify-content-center text-center flex-column text-light" fluid>
-        <h1 class="display-4">
-          Sergio Azócar
-        </h1>
-        <p class="lead">
-          Frontend Developer
-        </p>
-      </b-container>
-    </b-aspect>
     <b-container fluid="sm" tag="section">
       <h2>En pocas palabras... 🤔</h2>
       <p class="lead mt-3">
         Soy un apasionado por saber cómo funcionan las cosas, por eso estudie electrónica, programación y marketing, también tengo conocimientos de diseño, ui/ux y branding. En aprendizaje constante y con hambre de crear!.
       </p>
-    </b-container>
-    <b-container fluid="sm" tag="section">
-      <h2>Portafolio 👨‍💻</h2>
       <p class="lead">
-        Estos son algunos proyectos que he realizado, sea por trabajo o sólo por hobby con la intención de aprender algo nuevo.
+        Coorganizador de <a href="https://www.facebook.com/swloslagos" target="_blank" rel="noopener noreferrer">Startup Weekend Los Lagos</a>, dónde enseñamos a crear una startup en 54 horas.
       </p>
-      <b-row cols="1" cols-sm="2" cols-md="3">
-        <b-col class="mb-3">
-          <b-card title="static-api-hots" class="h-100">
-            <b-card-text>
-              Api estática sobre el juego Heroes of the Storm, en español e inglés.
-            </b-card-text>
-            <b-card-text>
-              <b-badge pill variant="primary" class="py-1">
-                json
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                github pages
-              </b-badge>
-            </b-card-text>
-            <b-button size="sm" href="https://sergioazoc.github.io/static-api-hots" target="_blank" variant="outline-primary">
-              ir al proyecto
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col class="mb-3">
-          <b-card title="pokedex-vue" class="h-100">
-            <b-card-text>
-              Buscador de pokémon basado en el api de PokeApi.
-            </b-card-text>
-            <b-card-text>
-              <b-badge pill variant="primary" class="py-1">
-                vue.js
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                vuex
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                vue-router
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                axios
-              </b-badge>
-            </b-card-text>
-            <b-button size="sm" href="https://pokedex-vue.now.sh" target="_blank" variant="outline-primary">
-              ir al proyecto
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col class="mb-3">
-          <b-card title="covid_chile" class="h-100">
-            <b-card-text>
-              Muestra de datos oficiales de COVID en Chile, usando el api de chile-coronapi.
-            </b-card-text>
-            <b-card-text>
-              <b-badge pill variant="primary" class="py-1">
-                vue.js
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                vuex
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                vue-router
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                axios
-              </b-badge>
-            </b-card-text>
-            <b-button size="sm" href="https://covid-chile.now.sh" target="_blank" variant="outline-primary">
-              ir al proyecto
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col class="mb-3">
-          <b-card title="cosmética kalu" class="h-100">
-            <b-card-text>
-              Sitio web para Kalu, marca de productos cosméticos con aceite de rosa mosqueta.
-            </b-card-text>
-            <b-card-text>
-              <b-badge pill variant="primary" class="py-1">
-                wordpress
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                woocommerce
-              </b-badge>
-            </b-card-text>
-            <b-button size="sm" href="https://www.cosmeticakalu.cl/" target="_blank" variant="outline-primary">
-              ir al proyecto
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col class="mb-3">
-          <b-card title="hotel veliche" class="h-100">
-            <b-card-text>
-              Sitio web para Veliche, hotel y restaurant de Castro, Chiloé.
-            </b-card-text>
-            <b-card-text>
-              <b-badge pill variant="primary" class="py-1">
-                wordpress
-              </b-badge>
-              <b-badge pill variant="primary" class="py-1">
-                2 idiomas
-              </b-badge>
-            </b-card-text>
-            <b-button size="sm" href="https://www.veliche.cl/" target="_blank" variant="outline-primary">
-              ir al proyecto
-            </b-button>
-          </b-card>
-        </b-col>
-      </b-row>
+      <p class="lead">
+        Staff de la comunidad de <a href="https://www.facebook.com/devsopsLosLagos" target="_blank" rel="noopener noreferrer">Devs&Ops Los Lagos</a>, dónde organizamos eventos, meetups y networking para programadores de la región.
+      </p>
+      <p class="lead">
+        Mentor en la red de Mentores de Impacto, dónde ayudo a emprendedores sobre temas digitales.
+      </p>
     </b-container>
   </div>
 </template>
@@ -134,20 +23,5 @@ export default {}
 </script>
 
 <style lang="scss">
-.header{
-  min-height: 50vh;
-  max-height: 72vh;
-  background-image: url("../assets/img/fondo-header-sergioazoc.jpg");
-  background-size: cover;
-  background-position: 50% 38%;
-}
-.header__cover{
-  $color: #007bff73;
-  $body-bg: #250657;
-  height: 100%;
-  background: $color linear-gradient(0deg, $body-bg, $color) repeat-x;
-}
-section{
-  margin: 40px auto;
-}
+
 </style>
