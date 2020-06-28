@@ -52,7 +52,7 @@
   max-height: 65vh;
   background-image: url("../assets/img/fondo-header-sergioazoc.jpg");
   background-size: cover;
-  background-position: 50% 38%;
+  background-position: 50% 32%;
   margin-bottom: 50px;
 }
 .header__cover{
