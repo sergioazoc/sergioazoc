@@ -110,7 +110,3 @@
     </b-row>
   </b-container>
 </template>
-
-<style lang="scss">
-
-</style>

@@ -26,7 +26,7 @@
           rounded="circle"
           alt="Circle image"
         />
-        <div class="ml-4">
+        <div class="ml-sm-4">
           <h1 class="header__title display-4">
             Sergio Azócar
           </h1>
@@ -53,7 +53,6 @@
   background-image: url("../assets/img/fondo-header-sergioazoc.jpg");
   background-size: cover;
   background-position: 50% 32%;
-  margin-bottom: 50px;
 }
 .header__cover{
   $color: #007bff73;
