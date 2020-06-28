@@ -1,0 +1,79 @@
+[
+  {
+    "title": "static-api-hots",
+    "description": "Api estática sobre el juego Heroes of the Storm, en español e inglés.",
+    "tags": [
+      {
+        "name": "json"
+      },
+      {
+        "name": "github pages"
+      }
+    ],
+    "url": "https://sergioazoc.github.io/static-api-hots/"
+  },
+  {
+    "title": "pokedex-vue",
+    "description": "Buscador de pokémon basado en el api de PokeApi.",
+    "tags": [
+      {
+        "name": "vue.js"
+      },
+      {
+        "name": "vuex"
+      },
+      {
+        "name": "vue-router"
+      },
+      {
+        "name": "axios"
+      }
+    ],
+    "url": "https://pokedex-vue.now.sh/"
+  },
+  {
+    "title": "covid_chile",
+    "description": "Muestra de datos oficiales de COVID en Chile, usando el api de chile-coronapi.",
+    "tags": [
+      {
+        "name": "vue.js"
+      },
+      {
+        "name": "vuex"
+      },
+      {
+        "name": "vue-router"
+      },
+      {
+        "name": "axios"
+      }
+    ],
+    "url": "https://covid-chile.now.sh/"
+  },
+  {
+    "title": "cosmética kalu",
+    "description": "Sitio web para Kalu, marca de productos cosméticos con aceite de rosa mosqueta.",
+    "tags": [
+      {
+        "name": "wordpress"
+      },
+      {
+        "name": "woocommerce"
+      }
+    ],
+    "url": "https://www.cosmeticakalu.cl/"
+  },
+  {
+    "title": "hotel veliche",
+    "description": "Sitio web para Veliche, hotel y restaurant de Castro, Chiloé.",
+    "tags": [
+      {
+        "name": "wordpress"
+      },
+      {
+        "name": "2 idiomas"
+      }
+    ],
+    "url": "https://www.veliche.cl/"
+  }
+]
