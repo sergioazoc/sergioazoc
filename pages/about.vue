@@ -17,9 +17,15 @@
         Estudios
       </h2>
       <ul>
-        <li class="lead">Monitor de física experimental (USACH)</li>
-        <li class="lead">Técnico de nivel medio en Electrónica (Liceo)</li>
-        <li class="lead">Analista Programador (Inacap)</li>
+        <li class="lead">
+          Monitor de física experimental (USACH)
+        </li>
+        <li class="lead">
+          Técnico de nivel medio en Electrónica (Liceo)
+        </li>
+        <li class="lead">
+          Analista Programador (Inacap)
+        </li>
       </ul>
     </b-container>
     <b-container fluid="sm" tag="section">

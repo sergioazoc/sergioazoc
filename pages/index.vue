@@ -16,28 +16,33 @@
       </p>
     </b-container>
     <b-container tag="section" class="mt-5">
-      <h2>Algunas de las tecnologías que he usado</h2>
+      <h2>Tecnologías que he usado</h2>
       <div class="mt-3">
-        <span class="badge badge-primary px-1 py-1">vue.js</span>
-        <span class="badge badge-primary px-1 py-1">vuex</span>
-        <span class="badge badge-primary px-1 py-1">vue-router</span>
-        <span class="badge badge-primary px-1 py-1">nuxt</span>
-        <span class="badge badge-primary px-1 py-1">axios</span>
-        <span class="badge badge-primary px-1 py-1">javascript</span>
-        <span class="badge badge-primary px-1 py-1">html/css</span>
-        <span class="badge badge-primary px-1 py-1">php</span>
-        <span class="badge badge-primary px-1 py-1">ruby on rails</span>
-        <span class="badge badge-primary px-1 py-1">mysql</span>
-        <span class="badge badge-primary px-1 py-1">postgresql</span>
-        <span class="badge badge-primary px-1 py-1">wordpress</span>
-        <span class="badge badge-primary px-1 py-1">woocommerce</span>
-        <span class="badge badge-primary px-1 py-1">digital ocean</span>
-        <span class="badge badge-primary px-1 py-1">netspanfy</span>
-        <span class="badge badge-primary px-1 py-1">vercel</span>
-        <span class="badge badge-primary px-1 py-1">git</span>
-        <span class="badge badge-primary px-1 py-1">github</span>
-        <span class="badge badge-primary px-1 py-1">api's</span>
+        <span v-for="(tecnologia, index) in tecnologias" :key="index" class="border border-primary badge text-primary">{{ tecnologia.name }}</span>
       </div>
     </b-container>
   </div>
 </template>
+
+<script>
+import Technologies from '../static/Technologies.json'
+export default {
+  data () {
+    return {
+      tecnologias: []
+    }
+  },
+  created () {
+    this.tecnologias = Technologies
+  }
+}
+</script>
+
+<style scoped>
+.badge{
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+</style>
