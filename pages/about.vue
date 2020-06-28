@@ -13,12 +13,26 @@
       </p>
     </b-container>
     <b-container fluid="sm" tag="section">
-      <h2>Cursos realizados</h2>
+      <h2 class="mb-2">
+        Estudios
+      </h2>
+      <ul>
+        <li class="lead">Monitor de física experimental (USACH)</li>
+        <li class="lead">Técnico de nivel medio en Electrónica (Liceo)</li>
+        <li class="lead">Analista Programador (Inacap)</li>
+      </ul>
+    </b-container>
+    <b-container fluid="sm" tag="section">
+      <h2 class="mb-2">
+        Cursos realizados
+      </h2>
       <b-row cols="1" cols-sm="2" cols-md="3">
         <b-col v-for="(curso, index) in cursos" :key="index" class="d-flex align-items-center mb-4">
           <div class="course d-flex align-items-center">
             <img :src="curso.badge" class="course__badge mr-3" :alt="curso.title">
-            <span class="lead">{{ curso.title }}</span>
+            <a :href="curso.diploma_link" target="_blank" rel="noopener noreferrer">
+              <span class="lead">{{ curso.title }}</span>
+            </a>
           </div>
         </b-col>
       </b-row>
@@ -41,6 +55,13 @@ export default {
 </script>
 
 <style scoped>
+.course a{
+  color: #250657
+}
+.course a:hover{
+  text-decoration: none;
+  color: #6610f2;
+}
 .course__badge{
   width: 50px;
   height: 50px;
