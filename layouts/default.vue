@@ -63,6 +63,7 @@
 }
 @media (max-width: 575.98px){
   .header__img{
+    margin-top: 30px;
     height: 100px;
     width: 100px;
   }
