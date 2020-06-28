@@ -47,7 +47,10 @@ export default {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-60129114-13'
+    }]
   ],
   /*
   ** Nuxt.js modules
@@ -56,7 +59,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
   ],
   bootstrapVue: {
     bootstrapCSS: false, // Or `css: false`
@@ -65,7 +68,7 @@ export default {
   rules: [
     {
       test: /\.s[ac]ss$/i,
-      use: ['style-loader', 'css-loader', 'sass-loader',],
+      use: ['style-loader', 'css-loader', 'sass-loader']
     }
   ],
   /*
