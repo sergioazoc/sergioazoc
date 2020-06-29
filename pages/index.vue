@@ -17,7 +17,7 @@
         Comunidades en las que participo
       </h2>
       <b-row>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 mb-3">
           <div class="card h-100">
             <img src="../assets/img/startupweekend.jpg" alt="Startup Weekend" class="card-img-top">
             <div class="card-body">
@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 mb-3">
           <div class="card h-100">
             <img src="../assets/img/devs&ops.jpg" alt="Devs&Ops Los Lagos" class="card-img-top">
             <div class="card-body">

@@ -38,7 +38,7 @@
     </b-aspect>
     <Nuxt />
     <footer class="footer text-center py-2">
-      <span class="lead text-light">Made with ♥ and Nuxt</span>
+      <span class="lead text-light">Made with ♥ Vue.js & Nuxt</span>
     </footer>
   </div>
 </template>
