@@ -1,20 +1,9 @@
-# sergioazoc
+# Sergio Azócar | Frontend Developer
 
-## Build Setup
+## En pocas palabras... 🤔
+Soy un apasionado por saber cómo funcionan las cosas, por eso estudie electrónica, programación y marketing, también tengo conocimientos de diseño, ui/ux y branding. En aprendizaje constante y con hambre de crear!
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Quieres saber más?
+- Puedes ver mi portafolio en mi [Sitio Web](https://sergioazoc.com)
+- [Twitter](https://twitter.com/sergioazoc)
+- [Instagram](https://instagram.com/sergioazoc)
