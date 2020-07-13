@@ -18,13 +18,13 @@
       </h2>
       <ul>
         <li class="lead">
-          Monitor de física experimental (USACH)
+          Analista Programador (Inacap)
         </li>
         <li class="lead">
           Técnico de nivel medio en Electrónica (Liceo)
         </li>
         <li class="lead">
-          Analista Programador (Inacap)
+          Monitor de física experimental (USACH)
         </li>
       </ul>
     </b-container>

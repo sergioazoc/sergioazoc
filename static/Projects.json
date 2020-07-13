@@ -75,5 +75,15 @@
       }
     ],
     "url": "https://www.veliche.cl/"
+  },
+  {
+    "title": "torre huillinco",
+    "description": "Sitio web para Torre Huillinco, hostal y cabañas en Huillinco, Chiloé.",
+    "tags": [
+      {
+        "name": "wordpress"
+      }
+    ],
+    "url": "http://www.torrehuillinco.cl/"
   }
 ]
