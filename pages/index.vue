@@ -57,7 +57,7 @@ export default {
   head () {
     return {
       meta: [
-        { property: 'og:image', content: ogImage }
+        { hid: 'og:image', name: 'og:image', content: ogImage }
       ]
     }
   }
