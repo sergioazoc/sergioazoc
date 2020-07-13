@@ -44,6 +44,7 @@
 
 <script>
 import Technologies from '../static/Technologies.json'
+import ogImage from '../assets/img/og-sergioazoc.jpg'
 export default {
   data () {
     return {
@@ -52,6 +53,13 @@ export default {
   },
   created () {
     this.tecnologias = Technologies
+  },
+  head () {
+    return {
+      meta: [
+        { property: 'og:image', content: ogImage }
+      ]
+    }
   }
 }
 </script>
