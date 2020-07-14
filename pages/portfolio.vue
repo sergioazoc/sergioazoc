@@ -1,11 +1,11 @@
 <template>
-  <b-container fluid="sm" tag="section">
+  <section class="container">
     <h2>Portafolio 👨‍💻</h2>
     <p class="lead">
       Estos son algunos proyectos que he realizado, sea por trabajo o sólo por hobby con la intención de aprender algo nuevo.
     </p>
-    <b-row cols="1" cols-sm="2" cols-md="3">
-      <b-col v-for="(proyecto, index) in proyectos" :key="index" class="mb-3">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div v-for="(proyecto, index) in proyectos" :key="index" class="col mb-3">
         <div class="card h-100">
           <div class="card-body">
             <p class="card-title h4">
@@ -15,16 +15,16 @@
               {{ proyecto.description }}
             </p>
             <div class="mb-3">
-              <span v-for="(tag, i) in proyecto.tags" :key="i" class="badge py-1 badge-primary badge-pill mr-1">
+              <span v-for="(tag, i) in proyecto.tags" :key="i" class="badge rounded-pill bg-primary mr-1 py-1">
                 {{ tag.name }}
               </span>
             </div>
             <a :href="proyecto.url" class="btn btn-outline-primary btn-sm">ir al proyecto</a>
           </div>
         </div>
-      </b-col>
-    </b-row>
-  </b-container>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>

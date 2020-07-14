@@ -1,22 +1,22 @@
 <template>
   <div>
-    <b-container fluid="sm" tag="section">
+    <section class="container">
       <h2>En pocas palabras... 🤔</h2>
       <p class="lead mt-3">
         Soy un apasionado por saber cómo funcionan las cosas, por eso estudie electrónica, programación y marketing, también tengo conocimientos de diseño, ui/ux y branding. En aprendizaje constante y con hambre de crear!.
       </p>
-    </b-container>
-    <b-container tag="section" class="mt-5">
+    </section>
+    <section class="container mt-5">
       <h2>Tecnologías y herramientas que he usado</h2>
       <div class="mt-3">
         <span v-for="(tecnologia, index) in tecnologias" :key="index" class="border border-primary badge text-primary">{{ tecnologia.name }}</span>
       </div>
-    </b-container>
-    <b-container fluid="sm" tag="section">
+    </section>
+    <section class="container">
       <h2 class="mb-4">
         Comunidades en las que participo
       </h2>
-      <b-row>
+      <div class="row">
         <div class="col-12 col-md-6 mb-3">
           <div class="card h-100">
             <img src="../assets/img/startupweekend.jpg" alt="Startup Weekend" class="card-img-top">
@@ -37,8 +37,8 @@
             </div>
           </div>
         </div>
-      </b-row>
-    </b-container>
+      </div>
+    </section>
   </div>
 </template>
 

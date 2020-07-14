@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-container fluid="sm" tag="section">
+    <section class="container">
       <h2>Sobre mi</h2>
       <p class="lead">
         Actualmente estoy enfocado en el desarrollo frontend, trabajando con vue/react  y javascript en general. Tengo buen dominio de HTML/CSS y algunos frameworks de css como bootstrap o materialize.
@@ -11,8 +11,8 @@
       <p class="lead">
         Así como me gusta aprender, también enseñar, lo que me llevó a realizar charlas, seminarios, cursos y mentorías en varias ciudades del sur de Chile.
       </p>
-    </b-container>
-    <b-container fluid="sm" tag="section">
+    </section>
+    <section class="container">
       <h2 class="mb-2">
         Estudios
       </h2>
@@ -27,22 +27,22 @@
           Monitor de física experimental (USACH)
         </li>
       </ul>
-    </b-container>
-    <b-container fluid="sm" tag="section">
+    </section>
+    <section class="container">
       <h2 class="mb-2">
         Cursos realizados
       </h2>
-      <b-row cols="1" cols-sm="2" cols-md="3">
-        <b-col v-for="(curso, index) in cursos" :key="index" class="d-flex align-items-center mb-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div v-for="(curso, index) in cursos" :key="index" class="col d-flex align-items-center mb-4">
           <div class="course d-flex align-items-center">
             <img :src="curso.badge" class="course__badge mr-3" :alt="curso.title">
             <a :href="curso.diploma_link" target="_blank" rel="noopener noreferrer">
               <span class="lead">{{ curso.title }}</span>
             </a>
           </div>
-        </b-col>
-      </b-row>
-    </b-container>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

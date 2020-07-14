@@ -25,6 +25,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: 'https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js' }
     ]
   },
   /*
@@ -58,15 +61,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt',
+    '@nuxtjs/axios',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios'
   ],
-  bootstrapVue: {
-    bootstrapCSS: false, // Or `css: false`
-    bootstrapVueCSS: false // Or `bvCSS: false`
-  },
   rules: [
     {
       test: /\.s[ac]ss$/i,
