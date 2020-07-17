@@ -2,33 +2,39 @@
   <div>
     <nav class="navbar sticky-top navbar-expand-sm navbar-dark">
       <div class="container-fluid">
-        <nuxt-link class="navbar-brand" :to="{name: 'index'}">
+        <nuxt-link
+          class="navbar-brand"
+          :to="{name: 'index'}">
           {S}
         </nuxt-link>
         <button
+          @click="toggleMenu"
+          id="hamburger"
           class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
+          type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div :class="{show: showNav}" class="collapse navbar-collapse" id="menuMobile">
           <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item">
-              <nuxt-link class="nav-link" :to="{name: 'index'}" exact>
+            <li @click="toggleMenu" class="nav-item">
+              <nuxt-link
+                class="nav-link"
+                :to="{name: 'index'}"
+                exact>
                 Inicio
               </nuxt-link>
             </li>
-            <li class="nav-item">
-              <nuxt-link class="nav-link" :to="{name: 'about'}">
+            <li @click="toggleMenu" class="nav-item">
+              <nuxt-link
+                class="nav-link"
+                :to="{name: 'about'}">
                 Sobre Mi
               </nuxt-link>
             </li>
-            <li class="nav-item">
-              <nuxt-link class="nav-link" :to="{name: 'portfolio'}">
+            <li @click="toggleMenu" class="nav-item">
+              <nuxt-link
+                class="nav-link"
+                :to="{name: 'portfolio'}">
                 Portafolio
               </nuxt-link>
             </li>
@@ -74,6 +80,21 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      showNav: false
+    }
+  },
+  methods: {
+    toggleMenu () {
+      this.showNav = !this.showNav
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 $color: #007bff73;
