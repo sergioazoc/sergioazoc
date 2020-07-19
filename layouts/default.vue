@@ -120,6 +120,12 @@ $body-bg: #250657;
     width: 130px;
   }
 }
+.nav-link.nuxt-link-exact-active.nuxt-link-active{
+  color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+  color: #ffffff;
+}
 @media (max-width: 575.98px){
   .header__img{
     margin-top: 30px;
