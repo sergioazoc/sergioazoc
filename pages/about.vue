@@ -62,10 +62,10 @@ export default {
 
 <style scoped>
 .course a{
-  color: #250657
+  color: #250657;
+  text-decoration: none;
 }
 .course a:hover{
-  text-decoration: none;
   color: #6610f2;
 }
 .course__badge{
