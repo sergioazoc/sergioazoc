@@ -59,18 +59,18 @@
       </div>
     </nav>
     <header class="header">
-      <div class="header__cover d-flex justify-content-center align-items-center text-light flex-column flex-sm-row">
+      <div class="header__cover d-flex justify-content-center align-items-center text-light flex-row">
         <img
         src="~/assets/img/sergio-azocar.jpg"
         alt="Sergio Azócar"
-        class="header__img border border-primary rounded-circle">
-        <div class="ml-sm-4">
+        class="header__img border border-primary rounded-circle mx-3 mx-sm-4">
+        <div>
           <h1 class="header__title display-4">
             Sergio Azócar
           </h1>
-          <p class="header__subtitle lead">
+          <span class="header__subtitle lead">
             Frontend Developer
-          </p>
+          </span>
         </div>
       </div>
     </header>
@@ -107,7 +107,7 @@ $body-bg: #250657;
   height: 1rem;
 }
 .header{
-  height: 60vh;
+  height: 30vh;
   background-image: url("../assets/img/fondo-header-sergioazoc.jpg");
   background-size: cover;
   background-position: 50% 32%;
@@ -115,10 +115,10 @@ $body-bg: #250657;
 .header__cover{
   height: 100%;
   background: $color linear-gradient(0deg, $body-bg, $color) repeat-x;
-  img{
-    height: 130px;
-    width: 130px;
-  }
+}
+.header__img{
+  height: 130px;
+  width: 130px;
 }
 .nav-link.nuxt-link-exact-active.nuxt-link-active{
   color: #ffffff;
@@ -126,17 +126,17 @@ $body-bg: #250657;
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
   color: #ffffff;
 }
-@media (max-width: 575.98px){
+@media (max-width: 400px){
   .header__img{
-    margin-top: 30px;
-    height: 100px;
-    width: 100px;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
   }
   .header__title{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .header__subtitle{
-    text-align: center;
+    font-size: 1rem;
   }
 }
 .footer{
