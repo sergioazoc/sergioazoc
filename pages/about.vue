@@ -27,6 +27,7 @@
           Monitor de física experimental (USACH)
         </li>
       </ul>
+      <p>Actualmente realizando un curso de React/Hooks.</p>
     </section>
     <section class="container">
       <h2 class="mb-2">
