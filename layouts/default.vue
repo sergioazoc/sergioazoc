@@ -4,37 +4,42 @@
       <div class="container-fluid">
         <nuxt-link
           class="navbar-brand"
-          :to="{name: 'index'}">
+          :to="{name: 'index'}"
+        >
           {S}
         </nuxt-link>
         <button
-          @click="toggleMenu"
           id="hamburger"
           class="navbar-toggler"
-          type="button">
-          <span class="navbar-toggler-icon"></span>
+          type="button"
+          @click="toggleMenu"
+        >
+          <span class="navbar-toggler-icon" />
         </button>
-        <div :class="{show: showNav}" class="collapse navbar-collapse" id="menuMobile">
+        <div id="menuMobile" :class="{show: showNav}" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto text-center">
-            <li @click="toggleMenu" class="nav-item">
+            <li class="nav-item" @click="toggleMenu">
               <nuxt-link
                 class="nav-link"
                 :to="{name: 'index'}"
-                exact>
+                exact
+              >
                 Inicio
               </nuxt-link>
             </li>
-            <li @click="toggleMenu" class="nav-item">
+            <li class="nav-item" @click="toggleMenu">
               <nuxt-link
                 class="nav-link"
-                :to="{name: 'about'}">
+                :to="{name: 'about'}"
+              >
                 Sobre Mi
               </nuxt-link>
             </li>
-            <li @click="toggleMenu" class="nav-item">
+            <li class="nav-item" @click="toggleMenu">
               <nuxt-link
                 class="nav-link"
-                :to="{name: 'portfolio'}">
+                :to="{name: 'portfolio'}"
+              >
                 Portafolio
               </nuxt-link>
             </li>
@@ -61,9 +66,10 @@
     <header class="header">
       <div class="header__cover d-flex justify-content-center align-items-center text-light flex-row">
         <img
-        src="~/assets/img/sergio-azocar.jpg"
-        alt="Sergio Azócar"
-        class="header__img border border-primary rounded-circle mx-3 mx-sm-4">
+          src="~/assets/img/sergio-azocar.jpg"
+          alt="Sergio Azócar"
+          class="header__img border border-primary rounded-circle mx-3 mx-sm-4"
+        >
         <div>
           <h1 class="header__title display-4">
             Sergio Azócar
