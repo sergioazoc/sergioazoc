@@ -3,10 +3,10 @@
     <section class="container">
       <h2>Sobre mi</h2>
       <p class="lead">
-        Actualmente estoy enfocado en el desarrollo frontend, trabajando con vue/react  y javascript en general. Tengo buen dominio de HTML/CSS y algunos frameworks de css como bootstrap o materialize.
+        Este 2020 me volví a enamorar de la programación y estoy a full aprendiendo cosas nuevas y desarrollando proyectos en paralelo a mi trabajo como dev.
       </p>
       <p class="lead">
-        Entre 2016 y el 2019 emprendí con una agencia y una academia digital, dónde aprendí bastante sobre branding y marketing en general (SEO, social media, inbound, etc.), esto gracias a los muchos cursos que hice (<a href="https://platzi.com/@sergioazocar/" target="_blank" rel="noopener noreferrer">Platzi</a>) y el trabajo con clientes. Durante ese tiempo implementé diversos sitios web con wordpress y tiendas con woocommerce, además de algunos desarrollos con PHP, Ruby on Rails, HTML/CSS.
+        Entre 2016 y el 2019 emprendí con una agencia y una academia digital, dónde aprendí bastante sobre branding y marketing en general (SEO, social media, inbound, etc.), esto gracias a los muchos cursos que hice (Platzi) y el trabajo con clientes. Durante ese tiempo implementé diversos sitios web ecommerce y corporativos, además de algunos desarrollos con PHP, Ruby on Rails, Javascript (vue/react), WordPress.
       </p>
       <p class="lead">
         Así como me gusta aprender, también enseñar, lo que me llevó a realizar charlas, seminarios, cursos y mentorías en varias ciudades del sur de Chile.
@@ -36,7 +36,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div v-for="(curso, index) in cursos" :key="index" class="col d-flex align-items-center mb-4">
           <div class="course d-flex align-items-center">
-            <img :src="curso.badge" class="course__badge mr-3" :alt="curso.title">
+            <img :src="curso.badge" class="course__badge me-3" :alt="curso.title">
             <a :href="curso.diploma_link" target="_blank" rel="noopener noreferrer">
               <span class="lead">{{ curso.title }}</span>
             </a>

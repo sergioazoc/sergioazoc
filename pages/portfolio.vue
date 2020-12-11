@@ -15,7 +15,7 @@
               {{ proyecto.description }}
             </p>
             <div class="mb-3">
-              <span v-for="(tag, i) in proyecto.tags" :key="i" class="badge rounded-pill bg-primary mr-1 py-1">
+              <span v-for="(tag, i) in proyecto.tags" :key="i" class="badge rounded-pill bg-primary me-1 py-1">
                 {{ tag.name }}
               </span>
             </div>

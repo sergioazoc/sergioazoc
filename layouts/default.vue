@@ -17,7 +17,7 @@
           <span class="navbar-toggler-icon" />
         </button>
         <div id="menuMobile" :class="{show: showNav}" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto text-center">
+          <ul class="navbar-nav ms-auto text-center">
             <li class="nav-item" @click="toggleMenu">
               <nuxt-link
                 class="nav-link"
@@ -75,14 +75,14 @@
             Sergio Azócar
           </h1>
           <span class="header__subtitle lead">
-            Frontend Developer
+            FullStack Developer
           </span>
         </div>
       </div>
     </header>
     <Nuxt />
     <footer class="footer text-center py-2">
-      <span class="lead text-light">Made with ♥ Vue.js & Nuxt</span>
+      <span class="fs-6 text-light">Made with ♥ Vue.js & Nuxt</span>
     </footer>
   </div>
 </template>

@@ -3,7 +3,7 @@
     <section class="container">
       <h2>En pocas palabras... 🤔</h2>
       <p class="lead mt-3">
-        Soy un apasionado por saber cómo funcionan las cosas, por eso estudie electrónica, programación y marketing, también tengo conocimientos de diseño, ui/ux y branding. En aprendizaje constante y con hambre de crear!.
+        Soy un apasionado por saber cómo funcionan las cosas y un creador empedernido, por eso estudie electrónica, programación y marketing, también tengo conocimientos de diseño, ui/ux y branding. En aprendizaje constante y con hambre de hacer cosas nuevas!.
       </p>
     </section>
     <section class="container mt-5">
